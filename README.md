@@ -56,3 +56,26 @@ Offline-only: the tool does not connect to, scan, geolocate, or block IPs. Use o
 
 ## Author
 Educational cybersecurity assessment project. Review and run the program yourself, and be prepared to explain its logic, assumptions, false positives, and limitations.
+
+
+## Verified local execution (Windows)
+
+The author ran the sample command on Windows PowerShell using Python's standard library:
+
+```text
+Total Events: 9
+Successful Logins: 2
+Failed Logins: 7
+Unique Source Ips: 4
+Unique Usernames: 4
+Threshold: 3
+Finding Count: 4
+
+Findings:
+- [MEDIUM] repeated_failures_from_ip: 192.0.2.10 (3 failures)
+- [MEDIUM] repeated_failures_from_ip: 203.0.113.7 (3 failures)
+- [MEDIUM] repeated_failures_for_account: alice (3 failures)
+- [MEDIUM] repeated_failures_for_account: carol (3 failures)
+```
+
+Unit tests: **7 passed, 0 failed** (reported runtime: 0.032 seconds) using `python -m unittest discover -s tests -v` on the author's Windows environment. This is a user-reported local test run; results may vary by environment.
