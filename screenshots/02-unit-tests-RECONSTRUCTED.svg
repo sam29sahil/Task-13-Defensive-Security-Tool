@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="650" viewBox="0 0 1500 650">
+<rect width="1500" height="650" fill="#0c0c0c"/><rect width="1500" height="38" fill="#202020"/>
+<text x="18" y="26" fill="#f0f0f0" font-family="monospace" font-size="17">Administrator: Windows PowerShell</text>
+<rect x="22" y="54" width="1456" height="42" fill="#4a3210" stroke="#d69e36" stroke-width="2"/>
+<text x="38" y="81" fill="#ffd27a" font-family="monospace" font-weight="bold" font-size="18">RECONSTRUCTED DEMO — NOT A LIVE SCREENSHOT FROM YOUR PC</text>
+<g font-family="monospace" font-size="20" fill="#dedede">
+<text x="32" y="138" fill="#ffffff" font-weight="bold">Task 13 — Unit Test Results</text>
+<text x="32" y="180" fill="#7ec8ff">(.venv) PS C:\Task-13-Defensive-Security-Tool&gt; python -m unittest discover -s tests -v</text>
+<text x="32" y="228">test_invalid_ip_is_rejected (test_analyzer...) ... ok</text>
+<text x="32" y="260">test_invalid_status (test_analyzer...) ... ok</text>
+<text x="32" y="292">test_invalid_threshold (test_analyzer...) ... ok</text>
+<text x="32" y="324">test_report_is_written (test_analyzer...) ... ok</text>
+<text x="32" y="356">test_summary_counts (test_analyzer...) ... ok</text>
+<text x="32" y="388">test_threshold_can_be_changed (test_analyzer...) ... ok</text>
+<text x="32" y="420">test_threshold_flags_ip_and_account (test_analyzer...) ... ok</text>
+<text x="32" y="468">----------------------------------------------------------------------</text>
+<text x="32" y="508" fill="#8fe388">Ran 7 tests in 0.032s</text>
+<text x="32" y="548" fill="#8fe388">OK</text>
+</g></svg>
